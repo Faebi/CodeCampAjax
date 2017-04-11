@@ -9,10 +9,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   </head>
   <body>
+<<<<<<< HEAD
     <h1>test!</h1>
     
 
+=======
+    <h1>Gimme musical inspiration..</h1>
+>>>>>>> 030da6bc7a89c1611e150648e2c7c9bdb5e3cb7d
 
+    <!-- Secondary, outline button -->
+    <button type="button" class="btn btn-secondary">Let's Go</button>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
