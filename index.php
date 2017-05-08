@@ -1,14 +1,9 @@
 <?php
-
-if(!@mysql_connect('127.0.0.1', 'root', 'your_password'))
-{
-    echo "mysql not connected ".mysql_error();
-    exit;
-
-}
-echo 'great work';
-
- ?>
+  session_start();
+  if(isset($_SESSION['id'])) unset($_SESSION['id']);
+  session_destroy();
+  require_once('system/data.php');
+?>
 
 <html lang="en">
   <head>
