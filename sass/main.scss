@@ -1,9 +1,20 @@
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 @import "assets/variables.scss";
 
+html{
+    overflow: hidden;
+}
 
 body{
   text-align: center;
+}
+
+#ajax{
+  overflow-x: scroll;
+  display: block;
+  height: 50%;
+  width: 100%;
+  margin-bottom: 200px;
 }
 
 footer{
@@ -30,11 +41,6 @@ h1 {
 }
 
 #songtable {
-  height: 50%;
-  width: 100%;
-  overflow-x: scroll;
-  display: block;
-  margin-bottom: 200px;
   @include flexbox(row, wrap, space-between, space-around);
 }
 
