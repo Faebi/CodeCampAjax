@@ -74,9 +74,14 @@
 
     </div>
 
+  <footer class="container-fluid text-center bg-lightgray">
+    <div class="copyrights" style="margin-top:25px;">
+      <p>HTW Chur © 2017, All Rights Reserved
+        <br>
+        <span>Designed by: Fabian Rütsche, Kyle Smith and Kim Schläpfer</span></p>
+        <p><a href="https://github.com/Faebi/CodeCampAjax" target="_blank">Github <i class="fa fa-github-square" aria-hidden="true"></i> </a></p>
+  </div>
 
-  <footer>
-    <p>Eine Website von Fabian Rütsche, Kyle Smith und Kim Schläpfer</p>
     <!-- jQuery first, then Tether, then Bootstrap JS, then custom JS... -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
