@@ -23,8 +23,10 @@ echo 'great work';
   <body>
     <div id="ajax">
       <div id="level_0" class="container">
+        <div class="col-12">
           <h1 class="elegantshd">Gimme musical inspiration</h1>
           <button type="button" class="btn btn-secondary">Let's Go</button>
+        </div>
       </div>
 
       <div id="level_1" class="container">
