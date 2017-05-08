@@ -33,4 +33,11 @@ function get_genre()
   return get_result($sql);
 }
 
+function get_tracks($genre)
+{
+  $sql = "SELECT * FROM tracks t WHERE t.genre = $genre;";
+  return get_result($sql);
+
+}
+
  ?>
