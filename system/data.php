@@ -11,7 +11,7 @@ function get_db_connection()
 function get_result($sql)
 {
   $db = get_db_connection();
-  // echo $sql;
+  //echo $sql;
   $result = mysqli_query($db, $sql);
   mysqli_close($db);
   return $result;
@@ -26,4 +26,11 @@ function get_id_result($sql)
   mysqli_close($db);
   return $result;
 }
+
+function get_genre()
+{
+  $sql = "SELECT DISTINCT(genre) FROM tracks";
+  return get_result($sql);
+}
+
  ?>
