@@ -20,32 +20,32 @@
       <div id="level_0" class="container">
         <div class="col-12">
           <h1 class="elegantshd">Gimme musical inspiration</h1>
-          <button type="button" class="btn btn-secondary">Let's Go</button>
+          <button type="button" class="btn btn-secondary btn-circle btn-xl">Let's Go</button>
         </div>
       </div>
 
       <div id="level_1" class="container">
         <div class="row">
           <div class="col-6 col-md-2">
-            <button type="button" class="btn btn-secondary">Indie</button>
+            <button type="button" class="btn btn-secondary btn-circle btn-xl">Indie</button>
           </div>
           <div class="col-6 col-md-2">
-            <button type="button" class="btn btn-secondary">Pop</button>
+            <button type="button" class="btn btn-secondary btn-circle btn-xl">Pop</button>
           </div>
           <div class="col-6 col-md-2">
-            <button type="button" class="btn btn-secondary">Hip-Hop</button>
+            <button type="button" class="btn btn-secondary btn-circle btn-xl">Hip-Hop</button>
           </div>
           <div class="col-6 col-md-2">
-            <button type="button" class="btn btn-secondary">Metal</button>
+            <button type="button" class="btn btn-secondary btn-circle btn-xl">Metal</button>
           </div>
           <div class="col-6 col-md-2">
-            <button type="button" class="btn btn-secondary">Future</button>
+            <button type="button" class="btn btn-secondary btn-circle btn-xl">Future</button>
           </div>
           <div class="col-6 col-md-2">
-            <button type="button" class="btn btn-secondary">Techno</button>
+            <button type="button" class="btn btn-secondary btn-circle btn-xl">Techno</button>
           </div>
           <div class="col-6 col-md-2">
-            <button type="button" class="btn btn-secondary">Hard-Rock</button>
+            <button type="button" class="btn btn-secondary btn-circle btn-xl">Hard-Rock</button>
           </div>
         </div>
       </div>
@@ -145,8 +145,6 @@
         </div>
       </div>
 
-      <div id="level_3">
-      </div>
 
     </div>
 

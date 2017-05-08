@@ -1,28 +1,22 @@
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
-html{
-  text-align: center;
-}
-
 body{
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-
+  text-align: center;
 }
 
 footer{
    position:fixed;
    left:0px;
    bottom:0px;
-   height:auto;
+   height: auto;
    width:100%;
    background-color: LightGray;
-   text-align: center;
 }
 
 h1 {
-  font-size: 6rem;
-  padding: 5rem 2rem;
-  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  padding: 80px 50px;
+  font-size: 5rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
 }
@@ -38,8 +32,14 @@ h1 {
   width: 100%;
   overflow-x: scroll;
   display: block;
+  margin-bottom: 200px;
 }
 
-#level_3 {
-  height: 10%;
+.btn-circle.btn-xl {
+  width: 150px;
+  height: 150px;
+  padding: 10px 16px;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  border-radius: 150px;
 }
