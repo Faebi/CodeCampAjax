@@ -22,8 +22,59 @@ echo 'great work';
   </head>
   <body>
     <div id="ajax">
-      <h1 class="elegantshd">Gimme musical inspiration</h1>
-      <button type="button" class="btn btn-secondary" id="level-00">Let's Go</button>
+      <div id="level_0" class="container">
+          <h1 class="elegantshd">Gimme musical inspiration</h1>
+          <button type="button" class="btn btn-secondary">Let's Go</button>
+      </div>
+
+      <div id="level_1" class="container">
+        <div class="row">
+          <div class="col-6 col-md-2">
+            <button type="button" class="btn btn-secondary">Indie</button>
+          </div>
+          <div class="col-6 col-md-2">
+            <button type="button" class="btn btn-secondary">Pop</button>
+          </div>
+          <div class="col-6 col-md-2">
+            <button type="button" class="btn btn-secondary">Hip-Hop</button>
+          </div>
+          <div class="col-6 col-md-2">
+            <button type="button" class="btn btn-secondary">Metal</button>
+          </div>
+          <div class="col-6 col-md-2">
+            <button type="button" class="btn btn-secondary">Future</button>
+          </div>
+          <div class="col-6 col-md-2">
+            <button type="button" class="btn btn-secondary">Techno</button>
+          </div>
+          <div class="col-6 col-md-2">
+            <button type="button" class="btn btn-secondary">Hard-Rock</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-*-*"></div>
+          <div class="col-*-*"></div>
+          <div class="col-*-*"></div>
+        </div>
+        <div class="row">
+          ...
+        </div>
+      </div>
+
+
+
+
+
+
+      <div id="level_2">
+
+      </div>
+
+
     </div>
 
 
