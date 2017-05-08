@@ -29,5 +29,4 @@ $('#genre-hip-hop').click(function(){
     })
   });
 
-
 </script>
