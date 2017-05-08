@@ -1,6 +1,12 @@
 <?php
 
+if(!@mysql_connect('127.0.0.1', 'root', 'your_password'))
+{
+    echo "mysql not connected ".mysql_error();
+    exit;
 
+}
+echo 'great work';
 
  ?>
 
@@ -17,8 +23,6 @@
   <body>
     <div id="ajax">
       <h1 class="elegantshd">Gimme musical inspiration</h1>
-
-      <!-- Secondary, outline button -->
       <button type="button" class="btn btn-secondary" id="level-00">Let's Go</button>
     </div>
 
