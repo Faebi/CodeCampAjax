@@ -10,21 +10,15 @@ body{
 }
 
 #ajax{
-  overflow-x: scroll;
-  display: block;
-  height: 50%;
-  width: 100%;
   margin-bottom: 200px;
+  @include flexbox(column,wrap,center,stretch);
 }
 
-footer{
-   position:fixed;
-   left:0px;
-   bottom:0px;
-   height: auto;
-   width:100%;
-   background-color: LightGray;
+.btn{
+  margin:10px;
 }
+
+
 
 h1 {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
@@ -41,7 +35,19 @@ h1 {
 }
 
 #songtable {
+  overflow-x: scroll;
+  display: block;
+  height: 50%;
+  width: 100%;
   @include flexbox(row, wrap, space-between, space-around);
+}
+
+#genretable {
+  overflow-y: scroll;
+  display: block;
+  height: 50%;
+  width: 50%;
+  @include flexbox(row,wrap,center,center);
 }
 
 .btn-circle.btn-xl {
@@ -51,4 +57,13 @@ h1 {
   font-size: 1.5rem;
   line-height: 1.33;
   border-radius: 150px;
+}
+
+footer{
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height: auto;
+   width:100%;
+   background-color: LightGray;
 }
