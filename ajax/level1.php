@@ -16,10 +16,6 @@ $genre_list = get_genre();
 
 
 <script>
-
-
-
-
   $('#genretable').click(function(e){
     console.log(e.target.id);
       $.ajax({
@@ -32,7 +28,4 @@ $genre_list = get_genre();
         }
       })
     });
-
-
-
 </script>

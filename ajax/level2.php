@@ -7,10 +7,24 @@ $track_list = get_tracks($_GET["genre"]);
   <div  id="songtable">
     <?php while ($tracks = mysqli_fetch_assoc($track_list)) {?>
       <div>
-        <button type="button" class="btn btn-secondary btn-circle btn-xl songs" id="genre-<?php echo strtolower($genre['genre']); ?>">
+        <button type="button" class="btn btn-secondary btn-circle btn-xl songs" id="<?php echo $tracks['id']; ?>">
           <p><?php echo $tracks['name']; ?></br><?php echo $tracks['artist']; ?></p></button>
       </div>
     <?php } ?>
-
     </div>
 </div>
+
+<script>
+  $('#songtable').click(function(e){
+    console.log(e.target.id);
+      $.ajax({
+        url: 'ajax/level3.php',
+        dataType: 'html',
+        method: 'GET',
+        data: {track: e.target.id},
+        success: function(retdata){
+          $("#ajax-song").html(retdata);
+        }
+      })
+    });
+</script>
