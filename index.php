@@ -28,6 +28,8 @@
           <button type="button" class="btn btn-secondary btn-circle btn-xl" id="level_0-button">Let's Go</button>
       </div>
     </div>
+    <div id="ajax-tracks">
+    </div>
 
   <footer class="text-center">
     <div class="copyrights container" style="margin-top:25px;">
