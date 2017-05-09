@@ -2,7 +2,7 @@
   session_start();
   if(isset($_SESSION['id'])) unset($_SESSION['id']);
   session_destroy();
-  
+
   require_once('system/data.php');
 
 ?>
@@ -21,13 +21,11 @@
 
 
   <body>
-    <h1 class="elegantshd">Gimme musical inspiration</h1>
+    <h1>Gimme musical inspiration</h1>
 
     <div id="ajax">
-      <div id="level_0" class="container">
-        <div class="col-12">
+      <div id="level_0">
           <button type="button" class="btn btn-secondary btn-circle btn-xl" id="level_0-button">Let's Go</button>
-        </div>
       </div>
     </div>
 
@@ -35,7 +33,7 @@
     <div class="copyrights container" style="margin-top:25px;">
       <p><span>HTW Chur © 2017, All Rights Reserved</span>
         <br>
-        <span>Designed by: Fabian Rütsche, Kyle Smith and Kim Schläpfer</span>
+        <span>Code by: Fabian Rütsche, Kyle Smith and Kim Schläpfer</span>
         <br>
         <span>GitHub: <a href="https://github.com/Faebi/CodeCampAjax" target="_blank"><span class="fa fa-github-square" aria-hidden="true"></span> </a></span></p>
     </div>
