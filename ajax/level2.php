@@ -4,11 +4,12 @@ $track_list = get_tracks($_GET["genre"]);
  ?>
 
 <div id="level_2">
-  <div  id="songtable">
+  <div id="songtable">
     <?php while ($tracks = mysqli_fetch_assoc($track_list)) {?>
       <div>
         <button type="button" class="btn btn-secondary btn-circle btn-xl songs" id="<?php echo $tracks['id']; ?>">
-          <p><?php echo $tracks['name']; ?></br><?php echo $tracks['artist']; ?></p></button>
+          <?php echo $tracks['name']; ?></br><?php echo $tracks['artist']; ?>
+        </button>
       </div>
     <?php } ?>
     </div>

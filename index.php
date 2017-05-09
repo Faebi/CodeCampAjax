@@ -30,7 +30,7 @@
     </div>
     <div id="ajax-tracks">
     </div>
-    <div class="modal" id="ajax-song">
+    <div id="ajax-song">
     </div>
 
   <footer class="text-center">
