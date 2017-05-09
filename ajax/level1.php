@@ -22,12 +22,13 @@ $('#genre-hip-hop').click(function(){
       url: 'ajax/level2.php',
       dataType: 'html',
       method: 'GET',
-      data: '',
+      data: 'hip-hop',
       success: function(retdata){
         $("#ajax").html(retdata);
       }
     })
   });
+
 
 
 </script>
