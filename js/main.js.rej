@@ -1,0 +1,29 @@
+diff a/js/main.js b/js/main.js	(rejected hunks)
+@@ -1,13 +0,14 @@
+-
+-$('#level_0-button').click(function(){
+-  //console.log("YES .click works")
+-    $.ajax({
+-      url: 'ajax/level1.php',
+-      dataType: 'html',
+-      method: 'GET',
+-      data: '',
+-      success: function(retdata){
+-        $("#ajax").html(retdata);
+-      }
+-    })
+-  });
++$(document).ready(function()){
++  $('#level_0-button').click(function(){
++    //console.log("YES .click works")
++      $.ajax({
++        url: 'ajax/level1.php',
++        dataType: 'html',
++        method: 'GET',
++        data: '',
++        success: function(retdata){
++          $("#ajax").html(retdata);
++        }
++      })
++    });  
++}
