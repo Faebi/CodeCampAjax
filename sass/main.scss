@@ -39,6 +39,7 @@ h1 {
 #genretable {
   overflow-y: scroll;
   height: 50%;
+  display: block;
   width: 50%;
   @include flexbox(row,wrap,center,center);
 }
