@@ -39,4 +39,10 @@ function get_tracks($genre)
   return get_result($sql);
 }
 
+function get_single_track($id)
+{
+  $sql = "SELECT * FROM tracks t WHERE t.id = '$id';";
+  return get_result($sql);
+}
+
  ?>
