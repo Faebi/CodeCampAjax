@@ -1,12 +1,12 @@
 <?php
   require_once('../system/data.php');
-  $track_id = get_single_track($_GET["track"]);
+  $track_id = get_single_track($_GET["track"]); // get track from db with id
   $track = mysqli_fetch_assoc($track_id);
   $url = $track["source"];
  ?>
 
 <script>
-
+  // Script from here: https://gist.github.com/takien/4077195
   function YouTubeGetID(url){
   var ID = '';
   url = url.replace(/(>|<)/gi,'').split(/(vi\/|v=|\/v\/|youtu\.be\/|\/embed\/)/);
@@ -23,6 +23,7 @@
   var url = "<?php echo $url ?>";
   var id = YouTubeGetID(url);
 
+// Build iFrame
   function Createiframe(id) {
     var element = document.getElementById('level-3');
     var iframe = document.createElement('iframe');
