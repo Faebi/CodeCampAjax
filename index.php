@@ -25,13 +25,14 @@
 
     <div id="ajax">
       <div id="level_0">
-          <button type="button" class="btn btn-secondary btn-circle btn-xl" id="level_0-button">Let's Go</button>
+          <button type="button" class="btn btn-secondary" id="level_0-button">Let's Go</button>
       </div>
     </div>
     <div id="ajax-tracks">
     </div>
     <div id="ajax-song">
     </div>
+  </body>
 
   <footer class="text-center">
     <div class="copyrights container" style="margin-top:25px;">
@@ -48,5 +49,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
-  </body>
+
 </html>

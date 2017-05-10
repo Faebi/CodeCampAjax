@@ -1,4 +1,6 @@
-@mixin flexbox($d, $w, $j, $a) { // @include flexbox(direction, wrap, justify, align)
+// flexbox
+// @include flexbox(direction, wrap, justify, align)
+@mixin flexbox($d, $w, $j, $a) {
   display: flex;
   flex-direction: $d;
   flex-wrap: $w;

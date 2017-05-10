@@ -25,7 +25,7 @@
 
 // Build iFrame
   function Createiframe(id) {
-    var element = document.getElementById('level-3');
+    var element = document.getElementById('videoWrapper');
     var iframe = document.createElement('iframe');
     // var node = document.createTextNode('öalskfdj');
     // iframe.appendChild(node);
@@ -41,5 +41,5 @@
 
 
 
-<div id="level-3">
+<div id="videoWrapper">
 </div>
