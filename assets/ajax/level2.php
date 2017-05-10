@@ -17,9 +17,9 @@ $track_list = get_tracks($_GET["genre"]);
 
 <script>
   $('#songtable').click(function(e){
-    console.log(e.target.id);
+    // console.log(e.target.id);
       $.ajax({
-        url: 'ajax/level3.php',
+        url: 'assets/ajax/level3.php',
         dataType: 'html',
         method: 'GET',
         data: {track: e.target.id},

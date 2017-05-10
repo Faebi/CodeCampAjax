@@ -17,9 +17,9 @@ $genre_list = get_genre();
 
 <script>
   $('#genretable').click(function(e){
-    console.log(e.target.id);
+    // console.log(e.target.id);
       $.ajax({
-        url: 'ajax/level2.php',
+        url: 'assets/ajax/level2.php',
         dataType: 'html',
         method: 'GET',
         data: {genre: e.target.id},
