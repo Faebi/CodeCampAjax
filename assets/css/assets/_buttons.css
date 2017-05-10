@@ -1,0 +1,15 @@
+.m-button {
+  padding: .5em;
+  color: #fff; }
+  .m-button--start {
+    background-color: #0B486B;
+    color: #0B486B;
+    border: 0.8px solid #0B486B; }
+  .m-button--genre {
+    background-color: #0B486B;
+    color: #0B486B;
+    border: 0.8px solid #0B486B; }
+  .m-button--song {
+    background-color: #0B486B;
+    color: #0B486B;
+    border: 0.8px solid #0B486B; }

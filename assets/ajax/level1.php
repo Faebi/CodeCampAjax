@@ -8,7 +8,7 @@ $genre_list = get_genre();
   <div id="level_1">
     <div id="genretable">
         <?php while ($genre = mysqli_fetch_assoc($genre_list)) { ?>
-          <button type="button" class="btn btn-secondary genre" id="<?php echo strtolower($genre['genre']); ?>"><?php echo $genre['genre']; ?></button>
+          <button type="button" class="btn btn-secondary genre animated" id="<?php echo strtolower($genre['genre']); ?>"><?php echo $genre['genre']; ?></button>
       <?php  } ?>
     </div>
   </div>

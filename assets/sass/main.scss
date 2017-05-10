@@ -1,6 +1,6 @@
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import "assets/animatewithsass/animate.scss";
 @import "assets/variables";
-
 
 body {
   text-align: center;
@@ -48,8 +48,17 @@ h1 {
 
 // Video Wrapper
 #videoWrapper{
-  @include paddinghack(100%, 16, 9, 'iframe')
+  @include paddinghack(100%, 16, 9, 'iframe');
 }
+
+.animated{
+  @include fadeIn(
+    $duration: 1s,
+    $count: 1,
+    $delay: .2s,
+    $function: ease,
+    $fill: both
+  );}
 
 footer {
   text-align: center;

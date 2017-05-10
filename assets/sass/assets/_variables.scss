@@ -8,7 +8,6 @@
   align-items: $a;
 }
 
-
 // paddinghack
 // @include paddinghack(width, ratiowidth, ratioheight, (childelement))
 @mixin paddinghack($cw, $rw, $rh, $c:null) {

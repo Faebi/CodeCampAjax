@@ -41,5 +41,5 @@
 
 
 
-<div id="videoWrapper">
+<div id="videoWrapper" class="animated">
 </div>
