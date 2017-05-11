@@ -4,7 +4,6 @@ $genre_list = get_genre();
 
  ?>
 
-
   <div id="level_1">
     <div id="genretable">
         <?php while ($genre = mysqli_fetch_assoc($genre_list)) { ?>
@@ -12,8 +11,6 @@ $genre_list = get_genre();
       <?php  } ?>
     </div>
   </div>
-
-
 
 <script>
   $('#genretable').click(function(e){
