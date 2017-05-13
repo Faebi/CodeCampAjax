@@ -2,4 +2,4 @@
 
 Website built with focus on AJAX.
 
-Checkout the [Demo](http://301787-7.web.fh-htwchur.ch/).
+Checkout the [Demo](http://798866-6.web.fh-htwchur.ch/).
